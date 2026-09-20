@@ -1,0 +1,60 @@
+# ESP32 Smart Conveyor Inspection & Automatic Reject System
+
+An ESP32-based industrial conveyor inspection system simulated using Wokwi and PlatformIO.
+
+## Features
+
+- IR-based product detection
+- Simulated product quality monitoring
+- GOOD / DEFECTIVE classification
+- Automatic servo-based rejection
+- OLED real-time monitoring
+- Green/Red status indication
+- Buzzer alert for defective products
+- Good and rejected product counters
+- Start/Stop system control
+- Wokwi simulation
+
+## Hardware
+
+- ESP32 DevKit
+- IR Sensor
+- HC-SR04 Ultrasonic Sensor
+- Potentiometer
+- SSD1306 OLED
+- Servo Motor
+- Green LED
+- Yellow LED
+- Red LED
+- Buzzer
+- Pushbutton
+- 220Ω resistors
+
+## Technologies
+
+- ESP32
+- Embedded C/C++
+- PlatformIO
+- Wokwi
+- ADC
+- PWM
+- GPIO
+- Industrial Automation
+
+## System Flow
+
+Product
+↓
+IR Detection
+↓
+Quality Parameter
+↓
+ESP32 Processing
+↓
+GOOD / DEFECTIVE
+↓
+Continue / Automatic Reject
+
+## Simulation
+
+This project is implemented as a Wokwi simulation prototype.
